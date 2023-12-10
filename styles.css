@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #F0F0F6;
+}
+
+.home{
+    /* width: 1440px; */
+    /* height: 8063px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-sidebar{
+    width: 305px;
+    height: 1280px;
+    background-color: #FFFFFF;
+    /* color: #FFFFFF; */
+}
+
+.left-sidebar > .profile{
+    width: 219px;
+    height: 246px;
+    margin: 50px 46px 25px 74px;
+}
+
+.left-sidebar .profile-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.name{
+    color: #2B2B2B;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 31px;
+    margin-bottom: 15px;
+    margin-left: 34px;
+    /* text-align: center; */
+}
+
+.left-sidebar > .about{
+    width: 220px;
+    height: 126px;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.left-sidebar .about-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+hr{
+    width: 220px;
+    height: 2px;
+    background-color: #FFB400;
+    border: none;
+    margin: 25px auto 25px 40px;
+}
+
+.left-sidebar > .languages, .skills, .extra-skills{
+    width: 220px;
+    height: 153px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.skills{
+    width: 220px;
+    height: 220px;
+}
+
+.extra-skills{
+    height: 170px;
+}
+
+.side-copy-text{
+    margin-left: 40px;
+    
+}
+
+.hero-section{
+    width: 1020px;
+    height: 467px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    border-radius: 3px;
+}
+
+.hero-section .btn-hire{
+    width: 154px;
+    height: 51px;
+    background-color: #FFB400;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+}
+
+.hero-section > .hero-content{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
+}
+
+.hero-section .role-details{
+    line-height: 2;
+}
+.hero-section > .hero-image{
+    width: 325PX;
+    height: 460px;
+}
+
+.right-sidebar{
+    width: 108px;   
+    height: 1280px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-sidebar .nav-list{
+    list-style: none;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    
+}
+
+.nav-list > li{
+    padding-bottom: 43px;
+    align-items: center;
+}
