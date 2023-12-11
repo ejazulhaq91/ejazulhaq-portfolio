@@ -1,11 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    box-sizing: border-box;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: #F0F0F6;
 }
 
@@ -21,6 +21,7 @@ body{
     height: 1280px;
     background-color: #FFFFFF;
     /* color: #FFFFFF; */
+    border-radius: 5px;
 }
 
 .left-sidebar > .profile{
@@ -35,7 +36,7 @@ body{
     border-radius: 50%;
 }
 
-.name{
+.left-sidebar .name{
     color: #2B2B2B;
     font-size: 18px;
     font-weight: 500;
@@ -45,6 +46,10 @@ body{
     /* text-align: center; */
 }
 
+.left-sidebar .role{
+    font-size: 15px;
+    color: #767676;
+}
 .left-sidebar > .about{
     width: 220px;
     height: 126px;
@@ -82,12 +87,7 @@ hr{
 }
 
 .extra-skills{
-    height: 170px;
-}
-
-.side-copy-text{
-    margin-left: 40px;
-    
+    height: 250px;
 }
 
 .hero-section{
@@ -96,7 +96,7 @@ hr{
     padding: 20px;
     background-color: #FFFFFF;
     display: flex;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .hero-section .btn-hire{
@@ -119,12 +119,18 @@ hr{
     text-align: justify;
 }
 
+.hero-section .role-heading{
+    font-size: 48px;
+    color: #2B2B2B;
+}
+
 .hero-section .role-details{
     line-height: 2;
+    color: #767676;
 }
 .hero-section > .hero-image{
     width: 325PX;
-    height: 460px;
+    height: 420px;
 }
 
 .right-sidebar{
@@ -134,6 +140,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 
 .right-sidebar .nav-list{
@@ -149,3 +156,105 @@ hr{
     padding-bottom: 43px;
     align-items: center;
 }
+
+/* My Services */
+
+.services{
+    width: 1020px;
+    height: 630px;
+    margin-top: -600px;
+    margin-left: 350px;
+}
+
+.services > .services-header{
+    margin-bottom: 50px;
+    text-align: center;   
+}
+
+.services .services-heading{
+    margin-bottom: 30px;
+}
+
+.services .services-content{
+    color: #767676;
+    font-size: 15px;
+}
+
+.services > .service-items{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.services .service{
+    width: 500px;
+    height: 225px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+/* Education */
+
+.education{
+    width: 1020px;
+    margin-left: 350px;
+}
+
+.education > .education-heading{
+    margin: 50px auto;
+    text-align: center;
+}
+
+.education .education-details{
+    width: 720px;
+    text-align: justify;
+}
+.education > .education-content{
+    background-color: #FFFFFF;
+    padding: 20px;
+    line-height: 2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #F0F0F6;
+}
+
+
+
+/* Work History */
+
+.work-history{
+    width: 1020px;
+    margin-left: 350px;
+}
+
+.work-history > .work-heading{
+    margin: 50px auto;
+    text-align: center;
+}
+
+.work-history .work-details{
+    width: 720px;
+    text-align: justify;
+}
+.work-history > .work-content{
+    background-color: #FFFFFF;
+    padding: 20px;
+    line-height: 2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
