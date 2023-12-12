@@ -18,7 +18,7 @@ body{
 
 .left-sidebar{
     width: 305px;
-    height: 1280px;
+    height: 1180px;
     background-color: #FFFFFF;
     /* color: #FFFFFF; */
     border-radius: 5px;
@@ -82,12 +82,11 @@ hr{
     justify-content: space-between;
 }
 .skills{
-    width: 220px;
-    height: 220px;
+    height: 190px;
 }
 
 .extra-skills{
-    height: 250px;
+    height: 190px;
 }
 
 .hero-section{
@@ -135,7 +134,7 @@ hr{
 
 .right-sidebar{
     width: 108px;   
-    height: 1280px;
+    height: 1180px;
     background-color: #FFFFFF;
     display: flex;
     justify-content: center;
@@ -162,7 +161,7 @@ hr{
 .services{
     width: 1020px;
     height: 630px;
-    margin-top: -600px;
+    margin-top: -630px;
     margin-left: 350px;
 }
 
@@ -185,9 +184,6 @@ hr{
     flex-wrap: wrap;
     column-gap: 20px;
     row-gap: 20px;
-    /* flex-direction: column; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
 }
 
 .services .service{
@@ -256,5 +252,69 @@ hr{
     justify-content: space-between;
 }
 
+.portfolio{
+    width: 1020px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
 
+.portfolio .portfolio-heading{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.portfolio .portfolio-content{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.portfolio .item{
+    width: 310px;
+    height: 310px;
+    margin-bottom: 20px;
+    /* border: 1px solid #FFB400; */
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    position: relative;
+}
+
+.portfolio h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;  
+    line-height: 2;
+    /* font-weight: 500;   */
+    background-color: #FFB400;
+    opacity: 0.80;
+}
+
+.portfolio .project-image{
+    width: 310px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.portfolio a{
+    text-decoration: none;
+    color: black;
+}
+
+.portfolio .portfolio-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.copy-text{
+    width: 1020px;
+    margin: 50px auto auto 350px;
+    text-align: center;
+    background-color: #FFFFFF;
+    line-height: 3;
+    font-weight: 500;
+    border-radius: 5px;
+}
 
